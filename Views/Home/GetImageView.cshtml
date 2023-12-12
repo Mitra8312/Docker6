@@ -1,0 +1,7 @@
+﻿@{
+    ViewData["Title"] = "Image View";
+}
+
+<h2>@ViewData["Title"]</h2>
+<img src="@Url.Action("GetImageBindMount", "Home")" alt="Изображение из Bind Mount"/>
+<img src="@Url.Action("GetImageVolume", "Home")" alt="Изображение из Volume"/>
